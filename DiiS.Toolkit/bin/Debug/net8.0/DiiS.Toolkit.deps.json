@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DiiS.Toolkit/1.0.0": {
+        "runtime": {
+          "DiiS.Toolkit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DiiS.Toolkit/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

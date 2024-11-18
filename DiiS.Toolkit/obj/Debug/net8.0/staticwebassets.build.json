@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "6gGwjL17Dmq8YFfyJkYLjFJlSfTFn5GwK0CGqmrHvow=",
+  "Source": "DiiS.Toolkit",
+  "BasePath": "_content/DiiS.Toolkit",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DiiS.Toolkit\\wwwroot",
+      "Source": "DiiS.Toolkit",
+      "ContentRoot": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\wwwroot\\",
+      "BasePath": "_content/DiiS.Toolkit",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DiiS.Toolkit.styles.css",
+      "SourceId": "DiiS.Toolkit",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/DiiS.Toolkit",
+      "RelativePath": "DiiS.Toolkit.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DiiS.Toolkit.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css",
+      "SourceId": "DiiS.Toolkit",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/DiiS.Toolkit",
+      "RelativePath": "DiiS.Toolkit.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\wwwroot\\app.css",
+      "SourceId": "DiiS.Toolkit",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\wwwroot\\",
+      "BasePath": "_content/DiiS.Toolkit",
+      "RelativePath": "app.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ]
+}
