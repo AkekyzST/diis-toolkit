@@ -15,5 +15,8 @@
 - MudBlazor https://mudblazor.com/
 - Cropper.Blazor https://cropperblazor.github.io/
 
+## Tools
+- Rider https://www.jetbrains.com/rider/
+
 ### Website Reference
 https://10015.io/
