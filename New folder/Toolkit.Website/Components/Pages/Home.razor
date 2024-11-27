@@ -1,0 +1,63 @@
+﻿@page "/"
+
+<PageTitle>PSU Crop photos</PageTitle>
+
+<div class="container text-center">
+    <!-- ปุ่มสำหรับอัพโหลดรูปภาพ และ Google ไดรฟ์ -->
+    <div class="row my-4">
+        <div class="col">
+            <button class="btn btn-pink d-flex align-items-center justify-content-center" @onclick="NavigateToUpload">
+                <img src="images/zz.png" alt="Upload Icon" class="me-2" width="24" height="24" />
+                อัพโหลดรูปภาพ
+            </button>
+        </div>
+        <div class="col">
+            <button class="btn btn-blue d-flex align-items-center justify-content-center" @onclick="NavigateToGoogleDrive">
+                <img src="images/xx.png" alt="Google Drive Icon" class="me-2" width="24" height="24" />
+                Google ไดรฟ์
+            </button>
+        </div>
+    </div>
+
+    <!-- ไอคอนตรงกลาง -->
+    <div class="my-4">
+        <img src="images/search.png" alt="Crop Icon" class="center-icon" />
+    </div>
+
+    <div class="container my-4">
+        <label for="imageCropUrl" class="form-label" style="font-weight: bold; font-size: 1.2rem;">
+            ลิงค์ URL สำหรับครอปรูปภาพ
+        </label>
+        <div class="input-group">
+            <span class="input-group-text">
+                <img src="images/clip.png" alt="Link Icon" width="20" height="20" />
+            </span>
+            <input type="text" id="imageCropUrl" class="form-control" placeholder="กรุณาใส่ลิงค์ URL สำหรับครอปรูปภาพ" />
+        </div>
+    </div>
+    <!-- ปุ่ม Continue -->
+    <button class="btn btn-green" @onclick="NavigateToCropPage">Continue</button>
+</div>
+
+@code {
+    // Inject NavigationManager
+    [Inject] private NavigationManager Navigation { get; set; }
+
+    // ฟังก์ชันเปลี่ยนหน้าเมื่อคลิกปุ่ม "อัพโหลดรูปภาพ"
+    private void NavigateToUpload()
+    {
+        Navigation.NavigateTo("/fileupload");
+    }
+
+    // ฟังก์ชันเปลี่ยนหน้าเมื่อคลิกปุ่ม "Google ไดรฟ์"
+    private void NavigateToGoogleDrive()
+    {
+        Navigation.NavigateTo("/tools/google-drive");
+    }
+
+    // ฟังก์ชันเปลี่ยนหน้าเมื่อคลิกปุ่ม "Continue"
+    private void NavigateToCropPage()
+    {
+        Navigation.NavigateTo("/crop");
+    }
+}

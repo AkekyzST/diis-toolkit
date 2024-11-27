@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6gGwjL17Dmq8YFfyJkYLjFJlSfTFn5GwK0CGqmrHvow=",
+  "Hash": "cdelFYHEoc5S0yDs23K0cr/fbF5YC+wWyhR3n96NzVo=",
   "Source": "DiiS.Toolkit",
   "BasePath": "_content/DiiS.Toolkit",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "DiiS.Toolkit\\wwwroot",
       "Source": "DiiS.Toolkit",
-      "ContentRoot": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\wwwroot\\",
       "BasePath": "_content/DiiS.Toolkit",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DiiS.Toolkit.styles.css",
+      "Identity": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DiiS.Toolkit.styles.css",
       "SourceId": "DiiS.Toolkit",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/DiiS.Toolkit",
-      "RelativePath": "DiiS.Toolkit.styles.css",
+      "RelativePath": "DiiS.Toolkit#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Primary",
@@ -31,17 +31,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "xrnsmwxkir",
+      "Integrity": "Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DiiS.Toolkit.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DiiS.Toolkit.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css",
+      "Identity": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css",
       "SourceId": "DiiS.Toolkit",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/DiiS.Toolkit",
-      "RelativePath": "DiiS.Toolkit.bundle.scp.css",
+      "RelativePath": "DiiS.Toolkit#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Primary",
@@ -50,28 +52,280 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "xrnsmwxkir",
+      "Integrity": "Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\wwwroot\\app.css",
       "SourceId": "DiiS.Toolkit",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\wwwroot\\",
       "BasePath": "_content/DiiS.Toolkit",
-      "RelativePath": "app.css",
+      "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "9tsjre4pz5",
+      "Integrity": "Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "app.9tsjre4pz5.css",
+      "AssetFile": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 06:13:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9tsjre4pz5"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "app.css",
+      "AssetFile": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\wwwroot\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2154"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 06:13:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y3QRrYDjsQ+Bj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="
+        }
+      ]
+    },
+    {
+      "Route": "DiiS.Toolkit.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 06:13:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg="
+        }
+      ]
+    },
+    {
+      "Route": "DiiS.Toolkit.styles.css",
+      "AssetFile": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DiiS.Toolkit.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 06:13:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg="
+        }
+      ]
+    },
+    {
+      "Route": "DiiS.Toolkit.xrnsmwxkir.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 06:13:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xrnsmwxkir"
+        },
+        {
+          "Name": "label",
+          "Value": "DiiS.Toolkit.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg="
+        }
+      ]
+    },
+    {
+      "Route": "DiiS.Toolkit.xrnsmwxkir.styles.css",
+      "AssetFile": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\bundle\\DiiS.Toolkit.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "503"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 Nov 2024 06:13:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xrnsmwxkir"
+        },
+        {
+          "Name": "label",
+          "Value": "DiiS.Toolkit.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg="
+        }
+      ]
     }
   ]
 }

@@ -1,12 +1,16 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css",
-      "PackagePath": "staticwebassets\\DiiS.Toolkit.bundle.scp.css"
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DiiS.Toolkit.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DiiS.Toolkit.xrnsmwxkir.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Ekaphon\\source\\repos\\diis-toolkit\\DiiS.Toolkit\\wwwroot\\app.css",
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\DiiS.Toolkit\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DiiS.Toolkit.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DiiS.Toolkit.Microsoft.AspNetCore.StaticWebAssets.props",
