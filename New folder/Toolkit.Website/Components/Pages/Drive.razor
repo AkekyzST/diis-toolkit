@@ -1,6 +1,16 @@
-﻿@page "/tools/google-drive" 
-<h3>ไดรฟ์</h3>
+﻿@page "/tools/google-drive"
+<div> class="img-container">
+	<CropperComponent Src="./images/R.png" Class="big-img" Options="new Cropper.Blazor.Models.Options()"/>
+</div>
 
-@code {
+<style>
+	.big-img {
+		max-height: 400px;
+		max-width: 100%;
+	}
 
-}
+	.img-container {
+		max-height: 400px;
+		width: 100%;
+	}
+</style>

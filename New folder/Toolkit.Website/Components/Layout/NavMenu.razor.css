@@ -72,17 +72,13 @@
     }
 
 .nav-item ::deep a.active {
-    background-color: rgba(255,255,255,0.37);
-    color: black;
+    background-color: #8c52ff;
+    color: white;
 }
 
 .nav-item ::deep .nav-link:hover {
     background-color: #e4d8fc;
     color: black;
-}
-
-.nav-scrollable {
-    display: none;
 }
 
 .navbar-toggler:checked ~ .nav-scrollable {
@@ -105,8 +101,9 @@
 }
 /* Navbar Container */
 .navbar-container {
-    background-color: white; /* พื้นหลังของ Navbar */
+    background-color: #ffffff; /* พื้นหลังของ Navbar */
     border-bottom: 1px solid #8c52ff; /* เส้นแบ่งด้านล่าง */
+    border-right: 1px solid white; /* เส้นแบ่งด้านขวา */
     height: 100px; /* กำหนดความสูงของ Navbar */
     display: flex;
     align-items: center; /* จัดแนวกลางในแนวตั้ง */
@@ -124,4 +121,54 @@
 .nav-icon {
     height: 20px; /* ขนาดไอคอน */
     width: 20px; /* ขนาดไอคอน */
+}
+
+.nav-scrollable {
+    background-color: #fafafa; /* สีเทาอ่อน */
+    padding: 10px;
+    border-radius: 5px; /* เพิ่มมุมโค้ง (ถ้าต้องการ) */
+}
+
+    .nav-scrollable .nav-item {
+        margin-bottom: 10px; /* เพิ่มช่องว่างระหว่างเมนู */
+    }
+
+    .nav-scrollable .nav-link {
+        background-color: transparent;
+        color: #000; /* สีตัวอักษร */
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+        .nav-scrollable .nav-link.active {
+            background-color: #dcdcdc; /* สีเทาอ่อนสำหรับ active link */
+            color: #000; /* สีตัวอักษร active */
+            border-radius: 5px;
+            padding: 8px;
+        }
+
+.nav-link {
+    display: flow; /* ใช้เพื่อให้ครอบคลุมพื้นที่แถบ */
+    align-items: center;
+    padding: 10px; /* เพิ่มระยะห่างในแต่ละเมนู */
+    text-decoration: none; /* ลบเส้นใต้ลิงก์ */
+    color: #000; /* สีข้อความปกติ */
+    border-radius: 5px; /* มุมโค้งสำหรับปุ่ม */
+}
+
+    .nav-link img {
+        margin-right: 10px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
+    }
+
+@media (max-width: 768px) {
+    .nav-scrollable {
+        width: 100%;
+        height: auto;
+        position: relative;
+        border-right: none;
+    }
+
+    .nav-link {
+        justify-content: center;
+    }
 }
