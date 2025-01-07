@@ -27,3 +27,4 @@ C:\Users\Ekaphon\source\repos\diis-toolkit\DiiS.Toolkit\obj\Debug\net8.0\refint\
 C:\Users\Ekaphon\source\repos\diis-toolkit\DiiS.Toolkit\obj\Debug\net8.0\DiiS.Toolkit.pdb
 C:\Users\Ekaphon\source\repos\diis-toolkit\DiiS.Toolkit\obj\Debug\net8.0\DiiS.Toolkit.genruntimeconfig.cache
 C:\Users\Ekaphon\source\repos\diis-toolkit\DiiS.Toolkit\obj\Debug\net8.0\ref\DiiS.Toolkit.dll
+C:\Users\Ekaphon\source\repos\diis-toolkit\DiiS.Toolkit\obj\Debug\net8.0\DiiS.Toolkit.sourcelink.json

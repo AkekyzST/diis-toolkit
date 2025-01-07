@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiiS.Toolkit", "DiiS.Toolkit.csproj", "{A71F5CF6-E4FC-4192-8554-F16A0545F21D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Toolkit.Website", "Toolkit.Website\Toolkit.Website.csproj", "{EA4B70D8-A158-4E24-8FF6-7227FFB7F1CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A71F5CF6-E4FC-4192-8554-F16A0545F21D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A71F5CF6-E4FC-4192-8554-F16A0545F21D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A71F5CF6-E4FC-4192-8554-F16A0545F21D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A71F5CF6-E4FC-4192-8554-F16A0545F21D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4B70D8-A158-4E24-8FF6-7227FFB7F1CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4B70D8-A158-4E24-8FF6-7227FFB7F1CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4B70D8-A158-4E24-8FF6-7227FFB7F1CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4B70D8-A158-4E24-8FF6-7227FFB7F1CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
