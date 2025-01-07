@@ -1,0 +1,146 @@
+﻿@page "/"
+
+<PageTitle>PSU Crop photos</PageTitle>
+
+<div class="container text-center">
+    <!-- ปุ่มสำหรับอัพโหลดรูปภาพ และ Google ไดรฟ์ -->
+    <div class="row my-4">
+        <div class="col">
+            <button class="btn btn-pink d-flex align-items-center justify-content-center" @onclick="NavigateToUpload">
+                <img src="images/zz.png" alt="Upload Icon" class="me-2 icon-size" />
+                อัพโหลดรูปภาพ
+            </button>
+        </div>
+        <div class="col">
+            <button class="btn btn-blue d-flex align-items-center justify-content-center" @onclick="NavigateToGoogleDrive">
+                <img src="images/xx.png" alt="Google Drive Icon" class="me-2 icon-size" />
+                Google ไดรฟ์
+            </button>
+        </div>
+    </div>
+
+    <!-- ไอคอนตรงกลาง -->
+    <div class="my-4">
+        <img src="images/search.png" alt="Crop Icon" class="center-icon" />
+    </div>
+
+    <!-- Input URL -->
+    <div class="container my-4">
+        <label for="imageCropUrl" class="form-label" style="font-weight: bold; font-size: 1.2rem;">
+            ลิงค์ URL สำหรับครอปรูปภาพ
+        </label>
+        <div class="input-group">
+            <span class="input-group-text">
+                <img src="images/clip.png" alt="Link Icon" width="20" height="20" />
+            </span>
+            <input type="text" id="imageCropUrl" class="form-control"
+                   placeholder="กรุณาใส่ลิงค์ URL สำหรับครอปรูปภาพ"
+                   @oninput="OnUrlInputChanged" />
+        </div>
+    </div>
+
+    <!-- แสดงภาพที่ลิงก์ -->
+    @if (!string.IsNullOrWhiteSpace(ImageCropUrl))
+    {
+        <div class="my-4">
+            <img src="@ImageCropUrl" alt="Preview Image" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 10px;" />
+        </div>
+    }
+
+    <!-- ปุ่ม Continue -->
+    <button class="btn btn-green" @onclick="NavigateToCropPage" disabled="@IsContinueDisabled">Continue</button>
+</div>
+
+<style>
+    body {
+        background-color: #ffffff;
+        font-family: 'Prompt', sans-serif;
+    }
+
+    .btn-pink {
+        background-color: #ff6f91;
+        color: white;
+        font-weight: bold;
+        border-radius: 15px;
+        padding: 15px 30px;
+        font-size: 1.2rem;
+    }
+
+    .btn-blue {
+        background-color: #4ac9ff;
+        color: white;
+        font-weight: bold;
+        border-radius: 15px;
+        padding: 15px 30px;
+        font-size: 1.2rem;
+    }
+
+    .btn-green {
+        background-color: #00cc66;
+        color: white;
+        font-weight: bold;
+        border-radius: 25px;
+        padding: 10px 50px;
+        font-size: 1.2rem;
+    }
+
+    .center-icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .icon-size {
+        width: 30px;
+        height: 30px;
+    }
+
+    .input-group {
+        max-width: 600px;
+        margin: auto;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .input-group-text {
+        border-radius: 10px 0 0 10px;
+        background-color: #f1f1f1;
+    }
+</style>
+
+@code {
+    // Inject NavigationManager
+    [Inject] private NavigationManager Navigation { get; set; }
+
+    private string ImageCropUrl { get; set; } = string.Empty;
+    private bool IsContinueDisabled => string.IsNullOrWhiteSpace(ImageCropUrl);
+
+    // ฟังก์ชันเปลี่ยนหน้าเมื่อคลิกปุ่ม "อัพโหลดรูปภาพ"
+    private void NavigateToUpload()
+    {
+        Navigation.NavigateTo("/fileupload", true);
+    }
+
+    // ฟังก์ชันเปลี่ยนหน้าเมื่อคลิกปุ่ม "Google ไดรฟ์"
+    private void NavigateToGoogleDrive()
+    {
+        Navigation.NavigateTo("/tools/google-drive");
+    }
+
+    // ฟังก์ชันเปลี่ยนหน้าเมื่อคลิกปุ่ม "Continue"
+    private void NavigateToCropPage()
+    {
+        if (!IsContinueDisabled)
+        {
+            Navigation.NavigateTo($"/crop?url={Uri.EscapeDataString(ImageCropUrl)}");
+        }
+    }
+
+    // ฟังก์ชันอัปเดตสถานะ URL
+    private void OnUrlInputChanged(ChangeEventArgs e)
+    {
+        ImageCropUrl = e?.Value?.ToString() ?? string.Empty;
+    }
+}

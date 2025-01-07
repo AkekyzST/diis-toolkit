@@ -2,5 +2,7 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
+/.vs
+/DiiS.Toolkit/.vs/DiiS.Toolkit
 /DiiS.Toolkit/.idea/.idea.DiiS.Toolkit/.idea/misc.xml
 /DiiS.Toolkit/.idea/.idea.DiiS.Toolkit/.idea/vcs.xml

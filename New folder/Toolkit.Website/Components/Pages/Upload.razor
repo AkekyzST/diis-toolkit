@@ -1,0 +1,141 @@
+﻿@page "/fileupload"
+@inject IJSRuntime JSRuntime
+@inject NavigationManager Navigation
+@inject IDialogService _dialogService
+
+<div class="container my-5">
+	<h3 class="text-center text-primary mb-4">อัพโหลดและครอปรูปภาพ</h3>
+	<div class="card shadow-lg p-4">
+		<div class="row">
+			<!-- Input สำหรับเลือกไฟล์ -->
+			<div class="col-12 mb-4 text-center">
+				<label class="form-label" for="fileUpload" style="color: #ff6347">
+					<strong>*เลือกรูปภาพที่ต้องการอัพโหลด*</strong>
+				</label>
+				<MudFileUpload T="IBrowserFile" FilesChanged="UploadFiles" MaximumFileCount="1" >
+					<ActivatorContent>
+						<MudButton Variant="Variant.Filled"
+						Color="Color.Primary"
+						StartIcon="@Icons.Material.Filled.CloudUpload">
+							Upload Files
+						</MudButton>
+					</ActivatorContent>
+				</MudFileUpload>
+				@* <InputFile id="fileUpload" OnChange="HandleFileSelected" accept="image/*" class="form-control" /> *@
+			</div>
+
+			@if (uploadedImageDataUrl != null)
+			{
+				<!-- แสดงตัวอย่างรูปภาพ -->
+				<div class="col-12 text-center">
+					<h4 class="text-success">ตัวอย่างรูปภาพ</h4>
+					<CropperComponent Class="cropper-container"
+					@ref="@cropperComponent"
+					Src="@uploadedImageDataUrl"
+					Options="@(new Cropper.Blazor.Models.Options())" />
+
+					<!-- ปุ่มครอปรูป -->
+					<div class="mt-4">
+						<MudButtonGroup Color="Color.Primary" Variant="Variant.Filled">
+							<MudTooltip Text="ครอปรูปภาพ">
+								<MudButton Color="Color.Secondary" Variant="Variant.Filled">
+									ครอปรูปภาพ
+								</MudButton>
+							</MudTooltip>
+						</MudButtonGroup>
+					</div>
+				</div>
+			}
+			else
+			{
+				<div class="col-12 text-center">
+					<p class="text-muted mt-3">ยังไม่มีรูปภาพที่อัพโหลด</p>
+				</div>
+			}
+		</div>
+	</div>
+</div>
+
+<style>
+	.preview-container {
+	border: 2px dashed #ddd;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #f9f9f9;
+	}
+
+	.cropper-container {
+	max-width: 100%;
+	max-height: 500px;
+	margin: auto;
+	}
+</style>
+
+@code {
+	private CropperComponent? cropperComponent;
+	private Options options = null!;
+	private decimal? scaleX;
+	private decimal? scaleY;
+	private decimal aspectRatio = 1.7777777777777777m;
+	private string? uploadedImageDataUrl;
+	IBrowserFile? _file;
+	private string Src = "https://fengyuanchen.github.io/cropperjs/images/picture.jpg";
+	private bool IsErrorLoadImage { get; set; } = false;
+	private readonly string _errorLoadImageSrc = "not-found-image.jpg";
+	public Dictionary<string, object> InputAttributes { get; set; } =
+		new Dictionary<string, object>()
+					{
+						{ "loading", "lazy" },
+						{ "test-Attribute", "123-test" }
+					};
+
+	protected override void OnInitialized()
+	{
+		options = new Options()
+			{
+				Preview = ".img-preview",
+				AspectRatio = (decimal)16 / 9,
+				ViewMode = ViewMode.Vm0
+			};
+	}
+
+	private async Task UploadFiles(IBrowserFile file)
+	{
+		_file = file;
+
+		if (cropperComponent is not null)
+		{
+			if (_file != null)
+			{
+				var oldSrc = Src;
+				Src = await cropperComponent.GetImageUsingStreamingAsync(_file, _file.Size);
+				IsErrorLoadImage = false;
+			}
+		}
+	}
+
+	public void OnCropEvent(JSEventData<CropEvent> cropEvent)
+	{
+		scaleX = cropEvent.Detail?.ScaleX;
+		scaleY = cropEvent.Detail?.ScaleY;
+	}
+
+	public async Task InputFileChange(InputFileChangeEventArgs inputFileChangeEventArgs)
+	{
+		if (cropperComponent is not null){
+			var imageFile = inputFileChangeEventArgs.File;
+			if (imageFile != null)
+			{
+				var oldSrc = Src;
+				Src = await cropperComponent.GetImageUsingStreamingAsync(imageFile, imageFile.Size);
+				IsErrorLoadImage = false;
+			}
+		}
+	}
+
+	// ฟังก์ชันเปลี่ยนหน้าเมื่อคลิกปุ่ม "Google ไดรฟ์"
+	private void NavigateToGoogleDrive()
+	{
+		Navigation.NavigateTo("/tools/google-drive");
+	}
+}

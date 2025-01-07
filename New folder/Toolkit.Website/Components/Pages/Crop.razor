@@ -1,0 +1,39 @@
+﻿@page "/crop"
+@inject NavigationManager Navigation
+@inject NavigationManager NavigationManager
+
+<h3>Crop Page</h3>
+
+@if (!string.IsNullOrWhiteSpace(ImageUrl))
+{
+    <img src="@ImageUrl" alt="Cropped Image" style="max-width: 100%; height: auto; border: 1px solid #ccc; border-radius: 10px;" />
+}
+else
+{
+    <p>ไม่พบรูปภาพ กรุณากลับไปใส่ลิงค์รูปภาพอีกครั้ง</p>
+}
+
+<button @onclick="NavigateBack">กลับ</button>
+
+
+<CropperComponent Class="cropper-example" Src="cropperblazor.png" Options="new Cropper.Blazor.Models.Options()" />
+
+@code {
+    private string ImageUrl { get; set; } = string.Empty;
+
+    protected override void OnInitialized()
+    {
+        var uri = new Uri(NavigationManager.Uri);
+        var queryParams = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
+
+        if (queryParams.TryGetValue("imageUrl", out var imageUrl))
+        {
+            ImageUrl = imageUrl;
+        }
+    }
+
+    private void NavigateBack()
+    {
+        Navigation.NavigateTo("/");
+    }
+}

@@ -1,0 +1,33 @@
+﻿@inherits LayoutComponentBase
+
+<div class="layout-container">
+    <div class="page">
+        <div class="sidebar">
+            <NavMenu />
+        </div>
+
+        <main>
+            <article class="content px-4">
+                @Body
+            </article>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-text">&copy; 2024 Prince of Songkhla University. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+                <a href="/contact">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<div id="blazor-error-ui">
+    An unhandled error has occurred.
+    <a href="" class="reload">Reload</a>
+    <a class="dismiss">🗙</a>
+</div>

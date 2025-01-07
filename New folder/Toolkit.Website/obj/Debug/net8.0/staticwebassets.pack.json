@@ -1,0 +1,181 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Toolkit.Website.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Toolkit.Website.981k8888fx.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\PSU.png",
+      "PackagePath": "staticwebassets\\images\\PSU.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\clip.png",
+      "PackagePath": "staticwebassets\\images\\clip.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\crop_1.png",
+      "PackagePath": "staticwebassets\\images\\crop_1.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\google.png",
+      "PackagePath": "staticwebassets\\images\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\home.png",
+      "PackagePath": "staticwebassets\\images\\home.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\picture.png",
+      "PackagePath": "staticwebassets\\images\\picture.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\search.png",
+      "PackagePath": "staticwebassets\\images\\search.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\xx.png",
+      "PackagePath": "staticwebassets\\images\\xx.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\images\\zz.png",
+      "PackagePath": "staticwebassets\\images\\zz.png"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Weerapat\\Source\\Repos\\diis-toolkit1\\New folder\\Toolkit.Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Toolkit.Website.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Toolkit.Website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Toolkit.Website.props",
+      "PackagePath": "build\\Toolkit.Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Toolkit.Website.props",
+      "PackagePath": "buildMultiTargeting\\Toolkit.Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Toolkit.Website.props",
+      "PackagePath": "buildTransitive\\Toolkit.Website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,28 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/DiiS.Toolkit/app.9tsjre4pz5.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9tsjre4pz5"},{"Name":"integrity","Value":"sha256-Y3QRrYDjsQ\u002BBj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="},{"Name":"label","Value":"_content/DiiS.Toolkit/app.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2154"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Y3QRrYDjsQ\u002BBj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 06:13:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DiiS.Toolkit/app.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\app.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y3QRrYDjsQ\u002BBj4noKNSCcSRxgRtgAn0QL1o5m5BNepk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2154"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Y3QRrYDjsQ\u002BBj4noKNSCcSRxgRtgAn0QL1o5m5BNepk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 06:13:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DiiS.Toolkit/DiiS.Toolkit.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DiiS.Toolkit.xrnsmwxkir.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"503"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 06:13:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DiiS.Toolkit/DiiS.Toolkit.xrnsmwxkir.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DiiS.Toolkit.xrnsmwxkir.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xrnsmwxkir"},{"Name":"integrity","Value":"sha256-Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg="},{"Name":"label","Value":"_content/DiiS.Toolkit/DiiS.Toolkit.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"503"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Xc34M82bRqcAOAUDA4kYqx3DHnIaqVLWMOvnw82TiUg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 18 Nov 2024 06:13:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

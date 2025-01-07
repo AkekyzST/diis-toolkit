@@ -1,0 +1,77 @@
+﻿/* สำหรับ Container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: linear-gradient(135deg, #ffffff, #ffffff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+.navbar {
+    background-color: #ccc; /* เปลี่ยนสีพื้นหลัง (น้ำเงินเข้ม) */
+    padding: 10px 20px; /* เพิ่ม Padding */
+    display: flex; /* ใช้ Flexbox */
+    justify-content: space-between; /* เว้นระยะระหว่างโลโก้และเมนู */
+    align-items: center; /* จัดให้อยู่ตรงกลางในแนวตั้ง */
+    color: #ffffff; /* เปลี่ยนสีข้อความเป็นสีขาว */
+}
+
+.navbar a {
+    color: #ffffff; /* เปลี่ยนสีข้อความของลิงก์เป็นสีขาว */
+    text-decoration: none; /* เอาเส้นขีดใต้ลิงก์ออก */
+    margin-right: 15px; /* เพิ่มระยะห่างระหว่างเมนู */
+}
+
+.navbar a:hover {
+    color: #ffd700; /* เปลี่ยนสีเมื่อชี้เมาส์ (สีทอง) */
+}
+
+.navbar-brand img {
+    border-radius: 8px; /* เพิ่มมุมโค้งให้โลโก้ */
+}
+
+/* ตัวอย่าง Responsive */
+.navbar-container {
+    width: 100%; /* ยืด Navbar เต็มหน้าจอ */
+    position: sticky; /* Navbar จะอยู่ด้านบนเมื่อ Scroll */
+    top: 0;
+    z-index: 1000; /* จัดลำดับให้อยู่บนสุด */
+}
+
+
+.footer-content {
+    display: flex; /* จัดให้อยู่ในบรรทัดเดียวกัน */
+    justify-content: space-between; /* ระยะห่างระหว่างข้อความ */
+    align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+    max-width: 1100px; /* ขยายความกว้างเล็กน้อย */
+    margin: 0 auto;
+}
+
+.footer-text {
+    margin: 0;
+    font-size: 1rem; /* ขนาดตัวอักษรเพิ่มขึ้นเล็กน้อย */
+    font-weight: 600; /* เพิ่มน้ำหนักให้ข้อความ */
+}
+
+.footer-links {
+    display: flex; /* จัดลิงก์ให้อยู่ในบรรทัดเดียวกัน */
+    gap: 1.5rem; /* ระยะห่างระหว่างลิงก์เพิ่มขึ้น */
+}
+
+.footer-links a {
+    color: #ffefd5; /* สีครีมที่ดูอบอุ่น */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500; /* เพิ่มความหนาให้ดูชัดเจน */
+    padding: 0.3rem 0.5rem; /* เพิ่ม Padding รอบลิงก์ */
+    border-radius: 4px; /* มุมโค้งมน */
+    transition: all 0.3s ease; /* เอฟเฟกต์การเปลี่ยนแปลง */
+}
+
+.footer-links a:hover {
+    color: #ffffff; /* เปลี่ยนเป็นสีขาวเมื่อ hover */
+    background-color: rgba(255, 255, 255, 0.2); /* เพิ่มสีพื้นโปร่งใส */
+    transform: scale(1.1); /* ขยายขนาดเล็กน้อย */
+}
